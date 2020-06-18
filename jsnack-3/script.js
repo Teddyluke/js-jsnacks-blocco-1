@@ -7,13 +7,13 @@ btn.addEventListener("click", function () {
   var num = parseInt(prompt ("inserisci un numero"));
 
   if (num > 0) {
-    document.getElementById('colore').classList.add("green");
+    document.getElementById('colore').className = ("green");
   }
   else if (num < 0) {
-    document.getElementById('colore').classList.add("red");
+    document.getElementById('colore').className = ("red");
   }
   else {
-    document.getElementById('colore').classList.add("blue");
+    document.getElementById('colore').className = ("blue");
   }
 
 });
